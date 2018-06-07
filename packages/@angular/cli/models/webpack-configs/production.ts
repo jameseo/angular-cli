@@ -150,6 +150,7 @@ export function getProdConfig(wco: WebpackConfigOptions) {
           ecma: wco.supportES2015 ? 6 : 5,
           warnings: buildOptions.verbose,
           ie8: false,
+          keep_fnames: true,
           mangle: {
             safari10: true,
           },

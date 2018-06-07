@@ -74,7 +74,8 @@ Promise.resolve()
     const cwd = pkg.dist;
 
     return new Promise((resolve, reject) => {
-      const url = `http://registry.npmjs.org/${name.replace(/\//g, '%2F')}`;
+      
+      const url = `http://build.denma.sdock.net:8081/repository/html5/${name.replace(/\//g, '%2F')}`;
       const request = http.request(url, response => {
         let data = '';
 

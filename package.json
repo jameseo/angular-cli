@@ -1,6 +1,6 @@
 {
   "name": "@angular/cli",
-  "version": "1.6.5",
+  "version": "1.6.5-keepfname",
   "description": "CLI tool for Angular",
   "main": "packages/@angular/cli/lib/cli/index.js",
   "trackingCode": "UA-8594346-19",
@@ -147,5 +147,8 @@
   },
   "optionalDependencies": {
     "node-sass": "^4.7.2"
+  },
+  "publishConfig": {
+    "registry": "http://build.denma.sdock.net:8081/repository/html5/"
   }
 }
